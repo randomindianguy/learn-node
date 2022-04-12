@@ -1,15 +1,18 @@
+//no quotes don't work in JSON
 {
     id: 101,
     name: "Srishti",
     developer: true
  }
 
+ //single quotes don't work in JSON
  {
     'id': 101,
     'name': "Srishti",
     'developer': true
  }
 
+//only double quotes work in JSON
  {
     "id": 101,
     "name": "Srishti",
